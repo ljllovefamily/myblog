@@ -5,7 +5,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <%@ taglib prefix="rapid" uri="http://www.rapid-framework.org.cn/rapid" %>
 
-
 <rapid:override name="breadcrumb">
     <nav class="breadcrumb">
         <div class="bull"><i class="fa fa-volume-up"></i></div>
@@ -34,15 +33,16 @@
                     <figure class="thumbnail">
                         <a href="/article/${a.articleId}">
                             <img width="280" height="210"
-                                 src="${pageContext.request.contextPath}/img/thumbnail/random/img_${a.articleId%15}.jpg"
+                                 src="${pageContext.request.contextPath}/img/thumbnail/random/img_${a.articleId%14}.jpg"
                                  class="attachment-content size-content wp-post-image"
                                  alt="${a.articleTitle}">
                         </a>
-                        <span class="cat">
-                                <a href="/category/${a.categoryList[a.categoryList.size()-1].categoryId}">
-                                        ${a.categoryList[a.categoryList.size()-1].categoryName}
-                                </a>
-                            </span>
+<%--                        文章分类标签--%>
+<%--                        <span class="cat">--%>
+<%--                                <a href="/category/${a.categoryList[a.categoryList.size()-1].categoryId}">--%>
+<%--                                        ${a.categoryList[a.categoryList.size()-1].categoryName}--%>
+<%--                                </a>--%>
+<%--                            </span>--%>
                     </figure>
 
                     <header class="entry-header">

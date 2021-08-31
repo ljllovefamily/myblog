@@ -16,7 +16,8 @@
     <meta name="applicable-device" content="pc,mobile">
     <meta name="MobileOptimized" content="width"/>
     <meta name="HandheldFriendly" content="true"/>
-    <link rel="shortcut icon" href="${pageContext.request.contextPath}/resource/assets/img/logo.png">
+    <link rel="icon" href="${pageContext.request.contextPath}/img/sky1.ico" mce_href="${pageContext.request.contextPath}/img/sky1.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="${pageContext.request.contextPath}/img/suolong3.png">
     <rapid:block name="description">
         <meta name="description" content="${options.optionMetaDescrption}"/>
     </rapid:block>
@@ -28,12 +29,19 @@
                 ${options.optionSiteTitle}-${options.optionSiteDescrption}
         </title>
     </rapid:block>
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/assets/css/style.css">
-    <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/assets/plugin/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/plugin/font-awesome/css/font-awesome.min.css">
 
     <rapid:block name="header-style">
 
     </rapid:block>
+    <style type="text/css">
+        body{
+            background: url(${pageContext.request.contextPath}/img/sky.jpg) !important ;
+            width:100%;
+            height:100%;
+        }
+    </style>
 </head>
 <body>
 <div id="page" class="site" style="transform: none;">
@@ -51,11 +59,11 @@
 
 </div>
 
-<script src="${pageContext.request.contextPath}/resource/assets/js/jquery.min.js"></script>
-<script src="${pageContext.request.contextPath}/resource/assets/js/superfish.js"></script>
-<script src='${pageContext.request.contextPath}/resource/assets/js/sticky.js'></script>
-<script src="${pageContext.request.contextPath}/resource/assets/js/script.js"></script>
-<script src="${pageContext.request.contextPath}/resource/assets/plugin/layui/layui.all.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/js/superfish.js"></script>
+<script src='${pageContext.request.contextPath}/js/sticky.js'></script>
+<script src="${pageContext.request.contextPath}/js/script.js"></script>
+<script src="${pageContext.request.contextPath}/plugin/layui/layui.all.js"></script>
 
 
 <rapid:block name="footer-script"></rapid:block>

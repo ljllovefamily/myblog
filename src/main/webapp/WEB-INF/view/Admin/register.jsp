@@ -12,18 +12,18 @@
         <head>
             <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
             <title>${options.optionSiteTitle} &lsaquo; 注册</title>
-            <link rel="stylesheet" href="${pageContext.request.contextPath}/resource/assets/plugin/font-awesome/css/font-awesome.min.css">
-            <link rel="shortcut icon" href="${pageContext.request.contextPath}/resource/assets/img/logo.png">
-            <link rel='stylesheet' id='dashicons-css' href='${pageContext.request.contextPath}/resource/assets/plugin/login/dashicons.min.css' type='text/css'
+            <link rel="stylesheet" href="${pageContext.request.contextPath}/plugin/font-awesome/css/font-awesome.min.css">
+            <link rel="icon" href="${pageContext.request.contextPath}/img/sky1.ico" mce_href="${pageContext.request.contextPath}/img/sky1.ico" type="image/x-icon" />
+            <link rel='stylesheet' id='dashicons-css' href='${pageContext.request.contextPath}/plugin/login/dashicons.min.css' type='text/css'
                   media='all'/>
-            <link rel='stylesheet' id='buttons-css' href='${pageContext.request.contextPath}/resource/assets/plugin/login/buttons.min.css' type='text/css' media='all'/>
-            <link rel='stylesheet' id='forms-css' href='${pageContext.request.contextPath}/resource/assets/plugin/login/forms.min.css' type='text/css' media='all'/>
-            <link rel='stylesheet' id='l10n-css' href='${pageContext.request.contextPath}/resource/assets/plugin/login/l10n.min.css' type='text/css' media='all'/>
-            <link rel='stylesheet' id='login-css' href='${pageContext.request.contextPath}/resource/assets/plugin/login/login.min.css' type='text/css' media='all'/>
+            <link rel='stylesheet' id='buttons-css' href='${pageContext.request.contextPath}/plugin/login/buttons.min.css' type='text/css' media='all'/>
+            <link rel='stylesheet' id='forms-css' href='${pageContext.request.contextPath}/plugin/login/forms.min.css' type='text/css' media='all'/>
+            <link rel='stylesheet' id='l10n-css' href='${pageContext.request.contextPath}/plugin/login/l10n.min.css' type='text/css' media='all'/>
+            <link rel='stylesheet' id='login-css' href='${pageContext.request.contextPath}/plugin/login/login.min.css' type='text/css' media='all'/>
             <style type="text/css">
                 body {
                     font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma, sans-serif;
-                    background: url(${pageContext.request.contextPath}/resource/assets/img/loginBg.jpg);
+                    background: url(${pageContext.request.contextPath}/img/huanghun.jpg);
                     width: 100%;
                     height: 100%;
                 }
@@ -100,14 +100,14 @@
                     </p>
                 </form>
 
-                <p id="backtoblog"><a href="/">&larr; 返回到风吟博客</a> | <a href="/login">登录</a></p>
+                <p id="backtoblog"><a href="/">&larr; 返回到过客博客</a> | <a href="/login">登录</a></p>
 
             </div>
 
 
             <div class="clear"></div>
 
-            <script src="${pageContext.request.contextPath}/resource/assets/js/jquery.min.js"></script>
+            <script src="${pageContext.request.contextPath}/js/jquery.min.js"></script>
             <script type="text/javascript">
 
 

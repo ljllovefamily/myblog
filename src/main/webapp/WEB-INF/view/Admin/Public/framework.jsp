@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
-    <link rel="shortcut icon" href="${pageContext.request.contextPath}/resource/assets/img/logo.png">
+    <link rel="icon" href="${pageContext.request.contextPath}/img/sky1.ico" mce_href="${pageContext.request.contextPath}/img/sky1.ico" type="image/x-icon" />
     <title>
         ${options.optionSiteTitle}后台
             <rapid:block name="title"></rapid:block>
@@ -95,11 +95,11 @@
                         <dd><a href="/admin/notice/insert">添加公告</a></dd>
                     </dl>
                 </li>
-                <li class="layui-nav-item">
-                    <a href="/admin/comment">
-                        评论
-                    </a>
-                </li>
+<%--                <li class="layui-nav-item">--%>
+<%--                    <a href="/admin/comment">--%>
+<%--                        评论--%>
+<%--                    </a>--%>
+<%--                </li>--%>
                 <li class="layui-nav-item">
                     <a href="javascript:;">用户</a>
                     <dl class="layui-nav-child">
@@ -126,13 +126,13 @@
                             <dd><a href="/admin/article/insert">写文章</a></dd>
                         </dl>
                     </li>
-                    <li class="layui-nav-item layui-nav-itemed">
-                        <a class="" href="javascript:;">评论</a>
-                        <dl class="layui-nav-child">
-                            <dd><a href="/admin/comment">我的评论</a></dd>
-                            <dd><a href="/admin/comment/receive">评论我的</a></dd>
-                        </dl>
-                    </li>
+<%--                    <li class="layui-nav-item layui-nav-itemed">--%>
+<%--                        <a class="" href="javascript:;">评论</a>--%>
+<%--                        <dl class="layui-nav-child">--%>
+<%--                            <dd><a href="/admin/comment">我的评论</a></dd>--%>
+<%--                            <dd><a href="/admin/comment/receive">评论我的</a></dd>--%>
+<%--                        </dl>--%>
+<%--                    </li>--%>
                 </ul>
             </c:if>
         </div>

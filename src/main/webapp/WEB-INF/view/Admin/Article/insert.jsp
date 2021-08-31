@@ -21,7 +21,7 @@
 
 
 
-    <form class="layui-form"  method="post" id="myForm" action="/admin/article/insertSubmit">
+    <form class="layui-form"  method="post" id="myForm" action="${pageContext.request.contextPath}/admin/article/insertSubmit">
 
         <div class="layui-form-item">
             <label class="layui-form-label">标题 <span style="color: #FF5722; ">*</span></label>

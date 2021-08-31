@@ -57,9 +57,9 @@
                                                  class="attachment-content size-content wp-post-image"
                                                  alt="${a.articleTitle}">
                                         </a>
-                                        <span class="cat">
-                                                    <a href="/category/${category.categoryId}">${category.categoryName}</a>
-                                                </span>
+<%--                                        <span class="cat">--%>
+<%--                                                    <a href="/category/${category.categoryId}">${category.categoryName}</a>--%>
+<%--                                                </span>--%>
                                     </figure>
 
                                     <header class="entry-header">

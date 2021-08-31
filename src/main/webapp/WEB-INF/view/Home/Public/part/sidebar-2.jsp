@@ -51,7 +51,7 @@
 <%--                        </a>--%>
 <%--                    </li>--%>
                     <li class="feed">
-                        <a title="" href="https://github.com/${options.optionAboutsiteGithub}" target="_blank"
+                        <a title="" href="https://github.com/ljllovefamily" target="_blank"
                            rel="external nofollow">
                             <i class="fa fa-github"></i>
                         </a>
@@ -75,11 +75,11 @@
         <div class="textwidget widget-text">
             <ul class="site-profile">
                 <li><i class="fa fa-file-o"></i> 文章总数：${siteBasicStatistics[0]} 篇</li>
-                <li><i class="fa fa-commenting-o"></i> 留言数量：${siteBasicStatistics[1]} 条</li>
+<%--                <li><i class="fa fa-commenting-o"></i> 留言数量：${siteBasicStatistics[1]} 条</li>--%>
                 <li><i class="fa fa-folder-o"></i> 分类数量：${siteBasicStatistics[2]} 个</li>
                 <li><i class="fa fa-tags"></i> 标签总数：${siteBasicStatistics[3]} 个</li>
-                <li><i class="fa fa-link"></i> 链接数量：${siteBasicStatistics[4]} 个</li>
-                <li><i class="fa fa-eye"></i> 浏览总量：${siteBasicStatistics[5]} 次</li>
+<%--                <li><i class="fa fa-link"></i> 链接数量：${siteBasicStatistics[4]} 个</li>--%>
+<%--                <li><i class="fa fa-eye"></i> 浏览总量：${siteBasicStatistics[5]} 次</li>--%>
 <%--                <li><i class="fa fa-pencil-square-o"></i> 最后更新：--%>
 <%--                    <span style="color:#2F889A">--%>
 <%--                                        <fmt:formatDate value="${lastUpdateArticle.articleUpdateTime}" pattern="yyyy年MM月dd日"/>--%>

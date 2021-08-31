@@ -66,7 +66,6 @@
                                     <span class="font-text">首页</span>
                                 </a>
                             </li>
-
                             <c:forEach items="${allCategoryList}" var="category">
                                 <c:if test="${category.categoryPid==0}">
                                     <li>
